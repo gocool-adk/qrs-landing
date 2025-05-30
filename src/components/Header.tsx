@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-
 const Header = () => {
   return (
     <header className="py-4">
@@ -36,9 +35,7 @@ const Header = () => {
         </nav>
         
         <div>
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+          <button
             className="btn-primary"
           >
             Contact Us

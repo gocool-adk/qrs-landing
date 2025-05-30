@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import {Header} from '../components/Header';
 import Hero from '../components/Hero';
 import EcosystemSection from '../components/EcosystemSection';
 import DistinctiveDesign from '../components/DistinctiveDesign';
